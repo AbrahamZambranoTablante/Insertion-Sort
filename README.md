@@ -95,10 +95,10 @@ If its needed to sort big input data there's others sort methods that have bette
 
 # Resources - Citation 
 
-[YouTube - Sorting Algorithms in JS : Insertion Sort] (https://www.youtube.com/watch?v=0KQyyZatDgM&ab_channel=getMaxed)
+[YouTube - Sorting Algorithms in JS : Insertion Sort](https://www.youtube.com/watch?v=0KQyyZatDgM&ab_channel=getMaxed)
 
-[GIF to illustrate the Insertion Sort] (https://upload.wikimedia.org/wikipedia/commons/9/9c/Insertion-sort-example.gif)
+[GIF to illustrate the Insertion Sort](https://upload.wikimedia.org/wikipedia/commons/9/9c/Insertion-sort-example.gif)
 
-[Wikipedia - Insertion Sort] (https://en.wikipedia.org/wiki/Insertion_sort)
+[Wikipedia - Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)
 
-[gitHub - Independent Study Project Example] (https://github.com/10-6-pursuit/independent-study-project-example/blob/main/readme.md?plain=1)
+[gitHub - Independent Study Project Example](https://github.com/10-6-pursuit/independent-study-project-example/blob/main/readme.md?plain=1)
