@@ -109,11 +109,11 @@ Continue this process until all cards are sorted.
 
 ### Example:
 
-Suppose you have the cards [5, 2, 8, Ace, 3].
-Start with 5, then insert 2 before 5 ( [2, 5, 8, Ace, 3] ).
-Next, insert 8 in the correct position ( [2, 5, 8, Ace, 3] ).
-Move on to Ace, insert it before 2 ( [Ace, 2, 5, 8, 3] ).
-Finally, insert 3 in the correct position ( [Ace, 2, 3, 5, 8] ).
+-Suppose you have the cards [5, 2, 8, Ace, 3].
+-Start with 5, then insert 2 before 5 ( [2, 5, 8, Ace, 3] ).
+-Next, insert 8 in the correct position ( [2, 5, 8, Ace, 3] ).
+-Move on to Ace, insert it before 2 ( [Ace, 2, 5, 8, 3] ).
+-Finally, insert 3 in the correct position ( [Ace, 2, 3, 5, 8] ).
 
 ### Final State:
 
