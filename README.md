@@ -29,7 +29,15 @@ function insertionSort (arr){
 // lets assign to our variable (temp) to the first element on the right
         temp = arr[i];
 ```
-4. Compare the value on the left against the value holded on our temporary variable, if its a higher swap places and insert the temporary value inside the open spot, repeat this action until the value on J gets equal to 0 and the for loop test the last element on the array, finally return the array with the sorted numbers
+
+4. Initiate a second index to compare
+
+```js
+//initilization of (j) assigning (i - 1) in order to get the left value on the first index that we need to compare agains the right holded on temp
+let j = i - 1;
+```
+
+5. Compare the value on the left against the value holded on our temporary variable, if its a higher swap places and insert the temporary value inside the open spot, repeat this action until the value on J gets equal to 0 and the for loop test the last element on the array, finally return the array with the sorted numbers
 
 ```js
 // declare a while loop that is going to run if the value on (j) its equal or superior than 0 
@@ -45,7 +53,7 @@ function insertionSort (arr){
     }
 ```
 
-5. Repeat the loop until the array its completely sorted and return the array
+6. Repeat the loop until the array its completely sorted and return the array
 
 ![Insertion Sort Animation](https://upload.wikimedia.org/wikipedia/commons/9/9c/Insertion-sort-example.gif)
 
