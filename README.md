@@ -91,6 +91,35 @@ Its better to use with small data inputs, not very efficient with large data siz
 This algorithm its not efficient with a high amounts of inputs thats the principal concern. 
 If its needed to sort big input data there's others sort methods that have better performance with high amounts of data.
 
+## Real Life Example
+
+Imagine you have a deck of cards that is initially in a random order, and you want to organize them in ascending order based on their ranks (from Ace to King). Here's how insertion sort could be applied:
+
+###Initial State:
+
+You have a deck of cards in a random order.
+
+###Process:
+
+Start with the first card in your hand.
+Compare it with the second card.
+If the second card is smaller, insert it before the first card.
+Move to the third card and insert it in the appropriate position among the first two cards.
+Continue this process until all cards are sorted.
+
+###Example:
+
+Suppose you have the cards [5, 2, 8, Ace, 3].
+Start with 5, then insert 2 before 5 ( [2, 5, 8, Ace, 3] ).
+Next, insert 8 in the correct position ( [2, 5, 8, Ace, 3] ).
+Move on to Ace, insert it before 2 ( [Ace, 2, 5, 8, 3] ).
+Finally, insert 3 in the correct position ( [Ace, 2, 3, 5, 8] ).
+
+###Final State:
+
+The deck of cards is now sorted in ascending order.
+In this scenario, insertion sort is appropriate because you are dealing with a small number of items, and the process of inserting each card into its correct position is efficient and easy to implement. However, for larger datasets, more complex sorting algorithms like merge sort or quicksort might be more efficient.
+
 
 
 ## Resources - Citation 
@@ -102,3 +131,5 @@ If its needed to sort big input data there's others sort methods that have bette
 [Wikipedia - Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)
 
 [gitHub - Independent Study Project Example](https://github.com/10-6-pursuit/independent-study-project-example/blob/main/readme.md?plain=1)
+
+[ChatGPT - Card Deck Example](https://chat.openai.com/share/6e5e65ea-1e3e-43c7-88ff-d219746ec3c4)
