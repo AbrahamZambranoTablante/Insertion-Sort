@@ -30,7 +30,7 @@ function insertionSort (arr){
         temp = arr[i];
 ```
 
-4. Initiate a second index to compare
+4. Initiate a second index to compare against the temporary variable
 
 ```js
 //initilization of (j) assigning (i - 1) in order to get the left value on the first index that we need to compare agains the right holded on temp
