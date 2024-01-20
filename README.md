@@ -93,7 +93,7 @@ If its needed to sort big input data there's others sort methods that have bette
 
 
 
-# Resources - Citation 
+## Resources - Citation 
 
 [YouTube - Sorting Algorithms in JS : Insertion Sort](https://www.youtube.com/watch?v=0KQyyZatDgM&ab_channel=getMaxed)
 
